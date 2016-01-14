@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  PlaceHolderVC.h
 //  YunNanJiWei
 //
-//  Created by 嵇俊杰 on 15/10/12.
+//  Created by 嵇俊杰 on 15/12/19.
 //  Copyright © 2015年 GaryJ. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PlaceHolderVC : UIViewController
 
 @end
-
