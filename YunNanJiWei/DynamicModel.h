@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "DynamicListModel.h"
 @interface DynamicModel : NSObject
+
+@property (strong, nonatomic) DynamicListModel *data;
+
+@property (strong,nonatomic) NSString *msg;
+
+@property (nonatomic) NSInteger ret;
 
 @end

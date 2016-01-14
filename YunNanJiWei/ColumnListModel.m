@@ -9,5 +9,11 @@
 #import "ColumnListModel.h"
 
 @implementation ColumnListModel
-
++ (NSDictionary *)mj_objectClassInArray{
+    return @{
+             @"cate" : @"CateModel",
+             @"banner" : @"BannerModel",
+             @"list" : @"BannerModel"
+             };
+}
 @end

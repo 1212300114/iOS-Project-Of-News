@@ -10,4 +10,10 @@
 
 @implementation DynamicListModel
 
++ (NSDictionary *)mj_objectClassInArray{
+    return @{
+             @"banner" : @"BannerModel",
+             @"list" : @"BannerModel"
+             };
+}
 @end

@@ -9,5 +9,8 @@
 #import "BannerModel.h"
 
 @implementation BannerModel
+-(NSString *)description{
+    return [NSString stringWithFormat:@"content_id:%lu, \nclass_id:%lu, \ntitle:%@, \nimage:%@, \napp_label:%@, \ninfo_link:%@",self.content_id,self.class_id,self.title,self.image,self.app_label,self.info_link];
+}
 
 @end

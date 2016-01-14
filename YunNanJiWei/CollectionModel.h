@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "CollectionListModel.h"
 @interface CollectionModel : NSObject
+
+@property (strong, nonatomic) CollectionListModel *data;
+
+@property (strong, nonatomic) NSString *msg;
+
+@property (assign, nonatomic) NSInteger ret;
 
 @end

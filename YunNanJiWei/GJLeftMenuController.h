@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GJLeftMenuController : UIViewController
+@interface GJLeftMenuController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+//logo 背景图片  列表
+@property (weak, nonatomic) IBOutlet UIImageView *logo;
+@property (weak, nonatomic) IBOutlet UIImageView *image;
+@property (weak, nonatomic) IBOutlet UITableView *table;
 
 @end

@@ -10,4 +10,14 @@
 
 @interface CateModel : NSObject
 
+@property (nonatomic) NSUInteger class_id;
+
+@property (nonatomic,copy) NSString *name;
+
+@property (nonatomic,copy) NSString *image;
+
+@property (nonatomic) NSUInteger show_child;
+
+@property (nonatomic,copy) NSString *cate_link;
+
 @end

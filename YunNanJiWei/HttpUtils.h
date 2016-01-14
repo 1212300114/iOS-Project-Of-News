@@ -10,4 +10,15 @@
 
 @interface HttpUtils : NSObject
 
+-(void)get: (NSString *)URLString
+   success: (void (^)(id json)) success
+  failure : (void (^)(NSError *error)) failure;
+
+-(void)get: (NSString *)URLString
+     param: (NSDictionary *)params
+   success: (void (^)(id json)) success
+   failure: (void (^)(NSError *error)) failure;
+
++(instancetype)shareInstance;
+
 @end

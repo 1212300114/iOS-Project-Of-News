@@ -7,11 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "WMPageController.h"
+#import "InformationDisclosureViewController.h"
+#import "DisciplineRegulationsTableViewController.h"
+#import "InformationDisclosureDetailViewController.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+//register left view controllers on appdelegate for reuse;
+@property (strong, nonatomic) WMPageController *pageController;//the first page
 
+@property (strong, nonatomic) InformationDisclosureViewController *informationDisclosureViewController;
 
+@property (strong, nonatomic) DisciplineRegulationsTableViewController *disciplineRegulationsTableViewController;
+
+@property (strong, nonatomic) InformationDisclosureDetailViewController *aboutUsWebViewController;
 @end
 

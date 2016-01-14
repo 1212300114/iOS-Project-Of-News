@@ -10,4 +10,16 @@
 
 @interface DynamicListModel : NSObject
 
+@property (nonatomic, strong) NSString *cate_name;
+
+@property (nonatomic, strong) NSString *next_link;
+
+@property (nonatomic) NSInteger pagecount;
+
+@property (nonatomic) NSInteger page;
+
+@property (nonatomic, strong) NSMutableArray *banner;
+
+@property (nonatomic, strong) NSMutableArray *list;
+
 @end

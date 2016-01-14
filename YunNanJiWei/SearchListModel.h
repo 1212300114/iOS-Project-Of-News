@@ -10,4 +10,11 @@
 
 @interface SearchListModel : NSObject
 
+@property (strong, nonatomic) NSMutableArray *list;
+
+@property (strong, nonatomic) NSString *next_link;
+
+@property (assign, nonatomic) NSUInteger page;
+
+@property (assign, nonatomic) NSUInteger pagecount;
 @end

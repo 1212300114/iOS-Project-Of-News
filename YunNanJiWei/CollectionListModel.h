@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface CollectionListModel : NSObject
-
+@property (strong, nonatomic) NSMutableArray *list;
 @end

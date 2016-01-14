@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "SearchListModel.h"
 @interface SearchModel : NSObject
+
+@property (strong, nonatomic) SearchListModel *data;
+
+@property (strong, nonatomic) NSString *msg;
+
+@property (assign, nonatomic) NSInteger ret;
 
 @end

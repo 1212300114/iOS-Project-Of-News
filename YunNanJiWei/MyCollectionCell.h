@@ -9,5 +9,8 @@
 #import <MGSwipeTableCell/MGSwipeTableCell.h>
 
 @interface MyCollectionCell : MGSwipeTableCell
+@property (weak, nonatomic) IBOutlet UIImageView *itemImage;
+@property (weak, nonatomic) IBOutlet UILabel *itemDescription;
+@property (weak, nonatomic) IBOutlet UILabel *itemDate;
 
 @end

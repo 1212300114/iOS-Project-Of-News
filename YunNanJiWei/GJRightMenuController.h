@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GJRightMenuCOntroller : UIViewController
+@interface GJRightMenuController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+
+
+//列表以及顶部图片
+@property (weak, nonatomic) IBOutlet UIImageView *image;
+@property (weak, nonatomic) IBOutlet UITableView *table;
 
 @end

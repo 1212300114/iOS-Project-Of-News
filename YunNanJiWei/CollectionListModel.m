@@ -9,5 +9,9 @@
 #import "CollectionListModel.h"
 
 @implementation CollectionListModel
-
++ (NSDictionary *)mj_objectClassInArray{
+    return @{
+             @"list" : @"BannerModel"
+             };
+}
 @end

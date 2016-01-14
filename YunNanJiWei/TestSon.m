@@ -1,3 +1,4 @@
+
 //
 //  TestSon.m
 //  YunNanJiWei
@@ -9,5 +10,9 @@
 #import "TestSon.h"
 
 @implementation TestSon
+
+-(void)testMethod{
+    NSLog(@"Son method called");
+}
 
 @end

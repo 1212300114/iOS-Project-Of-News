@@ -9,5 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @interface BannerModel : NSObject
+@property (nonatomic) NSUInteger content_id;
+@property (nonatomic) NSUInteger class_id;
+@property (nonatomic,copy) NSString *title;
+@property (nonatomic,copy) NSString *image;
+@property (nonatomic,copy) NSString *app_label;
+@property (nonatomic,copy) NSString *info_link;
 
 @end

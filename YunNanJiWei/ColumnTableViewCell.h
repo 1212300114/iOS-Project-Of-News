@@ -10,4 +10,7 @@
 
 @interface ColumnTableViewCell : UITableViewCell
 
+@property (weak, nonatomic) IBOutlet UIImageView *newsImage;
+
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @end

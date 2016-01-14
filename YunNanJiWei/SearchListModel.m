@@ -9,5 +9,9 @@
 #import "SearchListModel.h"
 
 @implementation SearchListModel
-
++ (NSDictionary *)mj_objectClassInArray{
+    return @{
+             @"list" : @"BannerModel"
+             };
+}
 @end

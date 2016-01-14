@@ -10,4 +10,12 @@
 
 @implementation TestFather
 
+-(instancetype)init{
+    self = [super init];
+    [self testMethod];
+    return self;
+}
+-(void)testMethod{
+    NSLog(@"father method called");
+}
 @end

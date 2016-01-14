@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "ColumnListModel.h"
 @interface ColumnModel : NSObject
+
+@property (strong, nonatomic) ColumnListModel *data;
+
+@property (copy, nonatomic) NSString *msg;
+
+@property (nonatomic) NSUInteger ret;
 
 @end

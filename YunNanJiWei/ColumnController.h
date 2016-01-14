@@ -10,4 +10,11 @@
 
 @interface ColumnController : UIViewController
 
+@property (strong,nonatomic) NSString *cateLink;
+
+@property (nonatomic,getter=isSubject) BOOL subject;
+
+@property (nonatomic,getter=isDynamic) BOOL dynamic;
+
+@property (nonatomic,copy) NSString *navigationTitle;
 @end
