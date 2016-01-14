@@ -14,7 +14,7 @@
 #import "BannerModel.h"
 #import "UIImageView+WebCache.h"
 #import "MJExtension.h"
-
+#import "InformationDisclosureDetailViewController.h"
 @interface CollectionViewController ()<UITableViewDataSource,UITableViewDelegate,MGSwipeTableCellDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *noDataLabel;
 @property (weak, nonatomic) IBOutlet UITableView *colletionTableView;
@@ -31,8 +31,19 @@
     self.colletionTableView.delegate = self;
     self.colletionTableView.dataSource = self;
     [self initNavigationItem];
-    [self getCollectionsFromUserDefaults];
+ 
     // Do any additional setup after loading the view.
+}
+
+- (void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+//    [self.colletionTableView reloadData];
+//    [self.listModels removeAllObjects];
+ 
+}
+-(void)viewWillAppear:(BOOL)animated{
+    self.generatedCollectionStrings = @"";
+    [self getCollectionsFromUserDefaults];
 }
 - (void)initNavigationItem{
     
@@ -192,14 +203,31 @@
     [userDefaults setObject:self.collections forKey:COLLECTION_KEY];
 }
 
-/*
+
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
+    if ([segue.identifier isEqualToString:@"pushToNewsDetail"]) {
+        if ([sender isKindOfClass:[UITableViewCell class]]) {
+            NSIndexPath *path = [self.colletionTableView indexPathForCell:sender];
+            if ([segue.destinationViewController isKindOfClass:[InformationDisclosureDetailViewController class]]) {
+                BannerModel *currnetModel = self.listModels[path.row];
+                if (currnetModel.info_link) {
+                    ((InformationDisclosureDetailViewController *)segue.destinationViewController).webRequest =
+                    [NSURLRequest requestWithURL:[NSURL URLWithString:currnetModel.info_link]];
+                    ((InformationDisclosureDetailViewController *)segue.destinationViewController).detail = YES;
+                    ((InformationDisclosureDetailViewController *)segue.destinationViewController).contentID =
+                    [NSNumber numberWithInteger:currnetModel.content_id];
+                }
+            }
+        }
+    }
+
+
 }
-*/
+
 
 @end

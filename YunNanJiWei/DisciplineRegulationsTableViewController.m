@@ -214,6 +214,7 @@
                     ((InformationDisclosureDetailViewController *)segue.destinationViewController).webRequest =
                     [NSURLRequest requestWithURL:[NSURL URLWithString:currnetModel.info_link]];
                     ((InformationDisclosureDetailViewController *)segue.destinationViewController).detail = YES;
+                    ((InformationDisclosureDetailViewController *)segue.destinationViewController).contentID = [NSNumber numberWithInteger:currnetModel.content_id];
                 }
             }
         }

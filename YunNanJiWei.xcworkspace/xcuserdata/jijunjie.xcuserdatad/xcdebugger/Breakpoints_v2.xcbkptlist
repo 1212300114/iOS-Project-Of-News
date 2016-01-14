@@ -598,11 +598,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "YunNanJiWei/CollectionViewController.m"
-            timestampString = "474363703.217136"
+            timestampString = "474449129.082788"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "162"
-            endingLineNumber = "162"
+            startingLineNumber = "173"
+            endingLineNumber = "173"
             landmarkName = "-swipeTableCell:canSwipe:fromPoint:"
             landmarkType = "5">
          </BreakpointContent>
