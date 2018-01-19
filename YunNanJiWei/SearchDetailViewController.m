@@ -61,11 +61,19 @@
     NSNotificationCenter *defaultCenter = [NSNotificationCenter defaultCenter];
     [defaultCenter addObserver:self selector:@selector(logNotification:) name:SEARCH_INPUT_NOTIFICATION object:nil];
     [defaultCenter addObserver:self selector:@selector(keyboardWillShow) name:UIKeyboardWillShowNotification object:nil];
+
     // Do any additional setup after loading the view.
     [self initPullDownToGetNewData];
     [self initPullUpToGetMoreData];
 }
+//remove observer when view disapper;
+-(void)viewDidDisappear:(BOOL)animated{
+    [super viewDidDisappear:animated];
+    NSNotificationCenter *defaultCenter = [NSNotificationCenter defaultCenter];
+    [defaultCenter removeObserver:self name:SEARCH_INPUT_NOTIFICATION object:nil];
+    [defaultCenter removeObserver:self name:UIKeyboardWillShowNotification object:nil];
 
+}
 
 - (void)keyboardWillShow{
     NSLog(@"keyboard showed!!");
@@ -305,11 +313,12 @@
         if ([sender isKindOfClass:[UITableViewCell class]]) {
             NSIndexPath *path = [self.searchTableView indexPathForCell:sender];
             if ([segue.destinationViewController isKindOfClass:[InformationDisclosureDetailViewController class]]) {
-                BannerModel *currnetModel = self.listModels[path.row];
-                if (currnetModel.info_link) {
+                BannerModel *currentModel = self.listModels[path.row];
+                if (currentModel.info_link) {
                     ((InformationDisclosureDetailViewController *)segue.destinationViewController).webRequest =
-                    [NSURLRequest requestWithURL:[NSURL URLWithString:currnetModel.info_link]];
+                    [NSURLRequest requestWithURL:[NSURL URLWithString:currentModel.info_link]];
                     ((InformationDisclosureDetailViewController *)segue.destinationViewController).detail = YES;
+                    ((InformationDisclosureDetailViewController *)segue.destinationViewController).contentID = [NSNumber numberWithInteger: currentModel.content_id];
                 }
             }
         }

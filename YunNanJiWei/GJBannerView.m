@@ -19,7 +19,7 @@
 @property (nonatomic,assign) NSUInteger currentPage;// the current index of images
 @property (nonatomic,weak) UILabel *titleLable; //the title label of the banner
 @property (nonatomic,weak) UIView *placeHolderView;// the place holder view to show when images are not setted ;
-@property (nonatomic,strong) NSMutableArray *currentImages;//the current three images to show in the scrol view
+@property (nonatomic,strong) NSMutableArray *currentImages;//the current three images to show in the scroll view
 @property (nonatomic,strong) NSMutableArray *currentImageUrls;// the current url of images
 @end
 
@@ -181,8 +181,10 @@
 
 //刷新scrollView里面的三个imageView 里面的图片---使用currentImages-
 -(void)refreshImages{
-
-    [self.placeHolderView removeFromSuperview];
+    
+    if ([self.subviews containsObject:self.placeHolderView]) {
+        [self.placeHolderView removeFromSuperview];
+    }
     NSArray *subViews = self.scrollView.subviews;
     for (int i = 0; i < subViews.count; i++) {
         

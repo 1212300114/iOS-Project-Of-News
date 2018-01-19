@@ -9,8 +9,10 @@
 #import "SlideNavigationController.h"
 #import "InformationDisclosureDetailViewController.h"
 #import "Constants.h"
+#import <JavaScriptCore/JavaScriptCore.h>
 
-@interface InformationDisclosureDetailViewController ()<UIWebViewDelegate,SlideNavigationControllerDelegate,UIGestureRecognizerDelegate>
+
+@interface InformationDisclosureDetailViewController ()<UIWebViewDelegate,SlideNavigationControllerDelegate,UIGestureRecognizerDelegate >
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
 @property (strong, nonatomic) UIActivityIndicatorView *spinner;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *collectionItem;
@@ -63,7 +65,8 @@
                 forState:UIControlStateNormal];
         [button setImage:[UIImage imageNamed:@"rightButtonPressed"]
                 forState:UIControlStateHighlighted];
-        [button addTarget:[SlideNavigationController sharedInstance] action:@selector(toggleRightMenu) forControlEvents:UIControlEventTouchUpInside];
+        [button addTarget:[SlideNavigationController sharedInstance] action: @selector(toggleRightMenu)
+         forControlEvents:UIControlEventTouchUpInside];
         UIBarButtonItem *rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:button];
         self.navigationItem.rightBarButtonItems = @[rightBarButtonItem];
     }
@@ -106,6 +109,7 @@
         [self.spinner removeFromSuperview];
     }
 }
+
 /*
 #pragma mark - Navigation
 
@@ -120,6 +124,7 @@
     if (self.isDetail) {
         return NO;
     }
+    
     return YES;
 }
 

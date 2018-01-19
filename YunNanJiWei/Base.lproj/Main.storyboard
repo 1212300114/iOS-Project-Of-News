@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ccY-0p-4qm">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ccY-0p-4qm">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
@@ -522,7 +522,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JLy-Ly-X9G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-910" y="1315"/>
+            <point key="canvasLocation" x="-590" y="1635"/>
         </scene>
         <!--Search View Controller-->
         <scene sceneID="EUy-Hr-37A">
@@ -603,11 +603,11 @@
                             <constraint firstItem="vTn-OL-dRK" firstAttribute="leading" secondItem="O1t-0Y-sAP" secondAttribute="leading" id="3Ag-bo-Fep"/>
                             <constraint firstItem="zrk-i0-iJx" firstAttribute="top" secondItem="vTn-OL-dRK" secondAttribute="bottom" constant="8" symbolic="YES" id="8L6-G8-bJW"/>
                             <constraint firstItem="VVh-P7-QPJ" firstAttribute="height" secondItem="1O6-yJ-h6Z" secondAttribute="height" id="FDx-dC-YAb"/>
-                            <constraint firstItem="1O6-yJ-h6Z" firstAttribute="top" secondItem="RNV-r3-LbK" secondAttribute="bottom" constant="8" id="S2P-IW-SFA"/>
-                            <constraint firstItem="VVh-P7-QPJ" firstAttribute="leading" secondItem="1O6-yJ-h6Z" secondAttribute="trailing" constant="8" id="Xdz-ez-c5Y"/>
+                            <constraint firstItem="1O6-yJ-h6Z" firstAttribute="top" secondItem="RNV-r3-LbK" secondAttribute="bottom" constant="8" symbolic="YES" id="S2P-IW-SFA"/>
+                            <constraint firstItem="VVh-P7-QPJ" firstAttribute="leading" secondItem="1O6-yJ-h6Z" secondAttribute="trailing" constant="8" symbolic="YES" id="Xdz-ez-c5Y"/>
                             <constraint firstItem="1O6-yJ-h6Z" firstAttribute="leading" secondItem="O1t-0Y-sAP" secondAttribute="leadingMargin" constant="-9" id="ZhW-NF-hFm"/>
                             <constraint firstItem="VVh-P7-QPJ" firstAttribute="width" secondItem="O1t-0Y-sAP" secondAttribute="height" multiplier="55:568" id="aV0-5A-VZd"/>
-                            <constraint firstItem="VVh-P7-QPJ" firstAttribute="leading" secondItem="1O6-yJ-h6Z" secondAttribute="trailing" constant="8" id="ble-q8-arH"/>
+                            <constraint firstItem="VVh-P7-QPJ" firstAttribute="leading" secondItem="1O6-yJ-h6Z" secondAttribute="trailing" constant="8" symbolic="YES" id="ble-q8-arH"/>
                             <constraint firstItem="VVh-P7-QPJ" firstAttribute="top" secondItem="RNV-r3-LbK" secondAttribute="bottom" constant="8" id="lhO-no-I7b"/>
                             <constraint firstItem="vTn-OL-dRK" firstAttribute="top" secondItem="1O6-yJ-h6Z" secondAttribute="bottom" constant="8" symbolic="YES" id="oVi-qT-YaD"/>
                             <constraint firstAttribute="trailingMargin" secondItem="VVh-P7-QPJ" secondAttribute="trailing" constant="-9" id="uwT-vh-6JL"/>
@@ -735,7 +735,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Je-xO-GNx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1004" y="455"/>
+            <point key="canvasLocation" x="1000" y="423"/>
         </scene>
         <!--Information Disclosure Detail View Controller-->
         <scene sceneID="PNp-9H-mnk">
@@ -746,11 +746,11 @@
                         <viewControllerLayoutGuide type="bottom" id="Og4-ll-UBy"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="qDT-CK-Dax">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="450"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PsY-P0-sZx">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="450"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </webView>
                         </subviews>
@@ -916,7 +916,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ivz-eM-ibw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1386" y="435"/>
+            <point key="canvasLocation" x="-1394" y="423"/>
         </scene>
         <!--State Dynamic View Controller-->
         <scene sceneID="Ugm-aT-awx">
@@ -957,7 +957,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dss-pZ-kSx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-910" y="435"/>
+            <point key="canvasLocation" x="-910" y="423"/>
         </scene>
         <!--Discipline Regulations Table View Controller-->
         <scene sceneID="v2J-TW-kOz">
@@ -998,7 +998,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v8l-RR-WxM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-468" y="435"/>
+            <point key="canvasLocation" x="-468" y="423"/>
         </scene>
         <!--Slide Navigation Controller-->
         <scene sceneID="E4z-Pd-MBX">
@@ -1144,7 +1144,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bRZ-Pf-ijk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="572" y="415"/>
+            <point key="canvasLocation" x="552" y="423"/>
         </scene>
         <!--Setting View Controller-->
         <scene sceneID="Um7-MO-rX7">
@@ -1164,7 +1164,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="清理缓存" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="INC-6X-Y6p">
                                         <rect key="frame" x="8" y="8" width="88" height="24"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconSettingArrow" translatesAutoresizingMaskIntoConstraints="NO" id="KmJ-2Y-BmD">
@@ -1179,7 +1179,7 @@
                                             <constraint firstAttribute="width" constant="150" id="YmX-rT-9Ju"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -1206,7 +1206,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="意见反馈" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLf-tl-cfQ">
                                         <rect key="frame" x="8" y="6" width="88" height="27"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconSettingArrow" translatesAutoresizingMaskIntoConstraints="NO" id="pYo-S0-HTq">
@@ -1285,7 +1285,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="564" y="-606"/>
+            <point key="canvasLocation" x="560" y="-437"/>
         </scene>
         <!--Feed Back View Controller-->
         <scene sceneID="zQe-G4-5aB">
@@ -1340,7 +1340,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="946" y="-551"/>
+            <point key="canvasLocation" x="974" y="-437"/>
         </scene>
     </scenes>
     <resources>
@@ -1370,6 +1370,6 @@
         <image name="sideFooter" width="514" height="14"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="XAC-7d-xuX"/>
+        <segue reference="a4h-P8-vBX"/>
     </inferredMetricsTieBreakers>
 </document>

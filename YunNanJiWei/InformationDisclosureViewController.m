@@ -47,15 +47,18 @@ typedef enum {
     [super viewDidLoad];
     for (UIButton *button in self.buttons) {
         [button.layer setBorderColor:[UIColor colorWithRed:0.627 green:0.627 blue:0.627 alpha:1].CGColor];
-        [button.layer setBorderWidth:1];
+        [button.layer setBorderWidth:0.5];
         [button.layer setMasksToBounds:YES];
+
     }
     
     // Do any additional setup after loading the view.
     [self initNavigationItem];
     [self addViewFromViewController];
 }
-
+- (void)viewDidLayoutSubviews{
+    [super viewDidLayoutSubviews];
+}
 - (void)initNavigationItem{
 
     // add the title to the navigation item

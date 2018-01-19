@@ -25,11 +25,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    
+
     UIStoryboard *mainStoryboard = [UIStoryboard
                                     storyboardWithName:@"Main"
                                     bundle: nil];
-    
+
     SlideNavigationController* navigation = [[SlideNavigationController alloc]init];
     navigation.interactivePopGestureRecognizer.enabled = YES;
     navigation.view.backgroundColor = [UIColor whiteColor];

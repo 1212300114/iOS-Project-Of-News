@@ -11,6 +11,7 @@
 #import "FeedBackViewController.h"
 #import "SlideNavigationController.h"
 #import "Constants.h"
+
 @interface SettingViewController ()<UIAlertViewDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *cacheLabel;
 @property (weak, nonatomic) IBOutlet UIView *clearCacheView;
@@ -60,12 +61,8 @@
     //设置标题与信息，通常在使用frame初始化AlertView时使用
     alert.title = @"清理数据";
     alert.message = @"你是否要清楚当前的缓存？";
-
-    //这个属性继承自UIView，当一个视图中有多个AlertView时，可以用这个属性来区分
     alert.tag = 0;
-    //只读属性，看AlertView是否可见
     NSLog(@"%d",alert.visible);
-    //通过给定标题添加按钮
 //    [alert addButtonWithTitle:@"addButton"];
     [alert show];
 }

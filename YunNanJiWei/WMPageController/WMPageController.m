@@ -10,7 +10,7 @@
 #import "WMPageConst.h"
 #import "ColumnController.h"
 #import "Constants.h"
-#import "SlideNavigationController.h"
+#import "SlideNavigationController.h"   
 @interface WMPageController () <WMMenuViewDelegate,UIScrollViewDelegate,SlideNavigationControllerDelegate> {
     CGFloat viewHeight;
     CGFloat viewWidth;

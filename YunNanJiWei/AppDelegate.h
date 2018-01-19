@@ -11,6 +11,8 @@
 #import "InformationDisclosureViewController.h"
 #import "DisciplineRegulationsTableViewController.h"
 #import "InformationDisclosureDetailViewController.h"
+
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;

@@ -15,6 +15,7 @@
 #import "UIImageView+WebCache.h"
 #import "MJExtension.h"
 #import "InformationDisclosureDetailViewController.h"
+
 @interface CollectionViewController ()<UITableViewDataSource,UITableViewDelegate,MGSwipeTableCellDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *noDataLabel;
 @property (weak, nonatomic) IBOutlet UITableView *colletionTableView;

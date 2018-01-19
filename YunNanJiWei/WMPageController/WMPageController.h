@@ -143,6 +143,8 @@ typedef NS_ENUM(NSUInteger, WMPageControllerCachePolicy){
  */
 
 @property (nonatomic, strong) NSArray *columnLinks;
+
+@property (nonatomic, assign) CGFloat lastX;
 /**
  *  构造方法，请使用该方法创建控制器.
  *  Init method，recommend to use this instead of `-init`.
@@ -152,6 +154,7 @@ typedef NS_ENUM(NSUInteger, WMPageControllerCachePolicy){
  *
  *  @return instancetype
  */
+
 - (instancetype)initWithViewControllerClasses:(NSArray *)classes andTheirTitles:(NSArray *)titles;
 
 @end
