@@ -36,14 +36,14 @@
 		C69B5B721BD8B5890004A4EE /* GJBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = C69B5B711BD8B5890004A4EE /* GJBannerView.m */; };
 		C6A4835F1C45F5760025D3AA /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6A4835E1C45F5760025D3AA /* SettingViewController.m */; };
 		C6AF754F1C27F8FC00D06D4A /* InformationDisclosureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6AF754E1C27F8FC00D06D4A /* InformationDisclosureViewController.m */; };
-		C6E0DC4C1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E0DC3B1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorSlide.m */; };
-		C6E0DC4D1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E0DC3D1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorFade.m */; };
-		C6E0DC4E1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E0DC3F1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
-		C6E0DC4F1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E0DC411BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorScale.m */; };
-		C6E0DC501BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E0DC431BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
-		C6E0DC511BFDBD8D00462D3E /* menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = C6E0DC461BFDBD8D00462D3E /* menu-button.png */; };
-		C6E0DC521BFDBD8D00462D3E /* menu-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6E0DC471BFDBD8D00462D3E /* menu-button@2x.png */; };
-		C6E0DC531BFDBD8D00462D3E /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E0DC4A1BFDBD8D00462D3E /* SlideNavigationController.m */; };
+		C6DB4D6A2012190000634CED /* SlideNavigationContorllerAnimatorFade.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DB4D5C2012190000634CED /* SlideNavigationContorllerAnimatorFade.m */; };
+		C6DB4D6B2012190000634CED /* SlideNavigationContorllerAnimatorScale.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DB4D5E2012190000634CED /* SlideNavigationContorllerAnimatorScale.m */; };
+		C6DB4D6C2012190000634CED /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DB4D602012190000634CED /* SlideNavigationContorllerAnimatorScaleAndFade.m */; };
+		C6DB4D6D2012190000634CED /* SlideNavigationContorllerAnimatorSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DB4D622012190000634CED /* SlideNavigationContorllerAnimatorSlide.m */; };
+		C6DB4D6E2012190000634CED /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DB4D642012190000634CED /* SlideNavigationContorllerAnimatorSlideAndFade.m */; };
+		C6DB4D6F2012190000634CED /* menu-button.png in Resources */ = {isa = PBXBuildFile; fileRef = C6DB4D662012190000634CED /* menu-button.png */; };
+		C6DB4D702012190000634CED /* menu-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6DB4D672012190000634CED /* menu-button@2x.png */; };
+		C6DB4D712012190000634CED /* SlideNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6DB4D692012190000634CED /* SlideNavigationController.m */; };
 		C6E0DC5A1BFDF62E00462D3E /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E0DC591BFDF62E00462D3E /* SearchViewController.m */; };
 		C6E470A91BCB9AC100824B64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E470A81BCB9AC100824B64 /* main.m */; };
 		C6E470AC1BCB9AC100824B64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6E470AB1BCB9AC100824B64 /* AppDelegate.m */; };
@@ -136,21 +136,21 @@
 		C6A4835E1C45F5760025D3AA /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		C6AF754D1C27F8FC00D06D4A /* InformationDisclosureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InformationDisclosureViewController.h; sourceTree = "<group>"; };
 		C6AF754E1C27F8FC00D06D4A /* InformationDisclosureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InformationDisclosureViewController.m; sourceTree = "<group>"; };
-		C6E0DC3A1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
-		C6E0DC3B1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
-		C6E0DC3C1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
-		C6E0DC3D1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
-		C6E0DC3E1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
-		C6E0DC3F1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
-		C6E0DC401BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
-		C6E0DC411BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
-		C6E0DC421BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
-		C6E0DC431BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
-		C6E0DC441BFDBD8D00462D3E /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
-		C6E0DC461BFDBD8D00462D3E /* menu-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button.png"; sourceTree = "<group>"; };
-		C6E0DC471BFDBD8D00462D3E /* menu-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button@2x.png"; sourceTree = "<group>"; };
-		C6E0DC491BFDBD8D00462D3E /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationController.h; sourceTree = "<group>"; };
-		C6E0DC4A1BFDBD8D00462D3E /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
+		C6DB4D5A2012190000634CED /* SlideNavigationContorllerAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimator.h; sourceTree = "<group>"; };
+		C6DB4D5B2012190000634CED /* SlideNavigationContorllerAnimatorFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorFade.h; sourceTree = "<group>"; };
+		C6DB4D5C2012190000634CED /* SlideNavigationContorllerAnimatorFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorFade.m; sourceTree = "<group>"; };
+		C6DB4D5D2012190000634CED /* SlideNavigationContorllerAnimatorScale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScale.h; sourceTree = "<group>"; };
+		C6DB4D5E2012190000634CED /* SlideNavigationContorllerAnimatorScale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScale.m; sourceTree = "<group>"; };
+		C6DB4D5F2012190000634CED /* SlideNavigationContorllerAnimatorScaleAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorScaleAndFade.h; sourceTree = "<group>"; };
+		C6DB4D602012190000634CED /* SlideNavigationContorllerAnimatorScaleAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorScaleAndFade.m; sourceTree = "<group>"; };
+		C6DB4D612012190000634CED /* SlideNavigationContorllerAnimatorSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlide.h; sourceTree = "<group>"; };
+		C6DB4D622012190000634CED /* SlideNavigationContorllerAnimatorSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlide.m; sourceTree = "<group>"; };
+		C6DB4D632012190000634CED /* SlideNavigationContorllerAnimatorSlideAndFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationContorllerAnimatorSlideAndFade.h; sourceTree = "<group>"; };
+		C6DB4D642012190000634CED /* SlideNavigationContorllerAnimatorSlideAndFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationContorllerAnimatorSlideAndFade.m; sourceTree = "<group>"; };
+		C6DB4D662012190000634CED /* menu-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button.png"; sourceTree = "<group>"; };
+		C6DB4D672012190000634CED /* menu-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-button@2x.png"; sourceTree = "<group>"; };
+		C6DB4D682012190000634CED /* SlideNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideNavigationController.h; sourceTree = "<group>"; };
+		C6DB4D692012190000634CED /* SlideNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideNavigationController.m; sourceTree = "<group>"; };
 		C6E0DC581BFDF62E00462D3E /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
 		C6E0DC591BFDF62E00462D3E /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
 		C6E470A41BCB9AC100824B64 /* YunNanJiWei.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YunNanJiWei.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -370,43 +370,42 @@
 			name = LeftMenu;
 			sourceTree = "<group>";
 		};
-		C6E0DC451BFDBD8D00462D3E /* Animations */ = {
+		C6DB4D582012190000634CED /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				C6E0DC3A1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorSlide.h */,
-				C6E0DC3B1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorSlide.m */,
-				C6E0DC3C1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorFade.h */,
-				C6E0DC3D1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorFade.m */,
-				C6E0DC3E1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
-				C6E0DC3F1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
-				C6E0DC401BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorScale.h */,
-				C6E0DC411BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorScale.m */,
-				C6E0DC421BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
-				C6E0DC431BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
-				C6E0DC441BFDBD8D00462D3E /* SlideNavigationContorllerAnimator.h */,
+				C6DB4D592012190000634CED /* Animations */,
+				C6DB4D652012190000634CED /* Assets */,
+				C6DB4D682012190000634CED /* SlideNavigationController.h */,
+				C6DB4D692012190000634CED /* SlideNavigationController.m */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C6DB4D592012190000634CED /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				C6DB4D5A2012190000634CED /* SlideNavigationContorllerAnimator.h */,
+				C6DB4D5B2012190000634CED /* SlideNavigationContorllerAnimatorFade.h */,
+				C6DB4D5C2012190000634CED /* SlideNavigationContorllerAnimatorFade.m */,
+				C6DB4D5D2012190000634CED /* SlideNavigationContorllerAnimatorScale.h */,
+				C6DB4D5E2012190000634CED /* SlideNavigationContorllerAnimatorScale.m */,
+				C6DB4D5F2012190000634CED /* SlideNavigationContorllerAnimatorScaleAndFade.h */,
+				C6DB4D602012190000634CED /* SlideNavigationContorllerAnimatorScaleAndFade.m */,
+				C6DB4D612012190000634CED /* SlideNavigationContorllerAnimatorSlide.h */,
+				C6DB4D622012190000634CED /* SlideNavigationContorllerAnimatorSlide.m */,
+				C6DB4D632012190000634CED /* SlideNavigationContorllerAnimatorSlideAndFade.h */,
+				C6DB4D642012190000634CED /* SlideNavigationContorllerAnimatorSlideAndFade.m */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
 		};
-		C6E0DC481BFDBD8D00462D3E /* Assets */ = {
+		C6DB4D652012190000634CED /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				C6E0DC461BFDBD8D00462D3E /* menu-button.png */,
-				C6E0DC471BFDBD8D00462D3E /* menu-button@2x.png */,
+				C6DB4D662012190000634CED /* menu-button.png */,
+				C6DB4D672012190000634CED /* menu-button@2x.png */,
 			);
 			path = Assets;
-			sourceTree = "<group>";
-		};
-		C6E0DC4B1BFDBD8D00462D3E /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				C6E0DC451BFDBD8D00462D3E /* Animations */,
-				C6E0DC481BFDBD8D00462D3E /* Assets */,
-				C6E0DC491BFDBD8D00462D3E /* SlideNavigationController.h */,
-				C6E0DC4A1BFDBD8D00462D3E /* SlideNavigationController.m */,
-			);
-			name = Source;
-			path = "../../iOS-Slide-Menu-master/SlideMenu/Source";
 			sourceTree = "<group>";
 		};
 		C6E0DC571BFDF53600462D3E /* RightMenu */ = {
@@ -531,8 +530,8 @@
 		C6E470E11BCBA01A00824B64 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				C6DB4D582012190000634CED /* Source */,
 				C6F907271C229A2E00B7CBAA /* WMPageController */,
-				C6E0DC4B1BFDBD8D00462D3E /* Source */,
 			);
 			name = Libs;
 			sourceTree = "<group>";
@@ -672,11 +671,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6E0DC511BFDBD8D00462D3E /* menu-button.png in Resources */,
+				C6DB4D6F2012190000634CED /* menu-button.png in Resources */,
 				C67513741C2A3C2400DEC7DF /* Main.storyboard in Resources */,
 				C6E470B71BCB9AC100824B64 /* LaunchScreen.storyboard in Resources */,
+				C6DB4D702012190000634CED /* menu-button@2x.png in Resources */,
 				C6E470B41BCB9AC100824B64 /* Assets.xcassets in Resources */,
-				C6E0DC521BFDBD8D00462D3E /* menu-button@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -751,14 +750,14 @@
 			files = (
 				C6F907351C229A2F00B7CBAA /* WMMenuItem.m in Sources */,
 				C67EB97F1C4498BE00951909 /* CollectionModel.m in Sources */,
+				C6DB4D6B2012190000634CED /* SlideNavigationContorllerAnimatorScale.m in Sources */,
 				C6A4835F1C45F5760025D3AA /* SettingViewController.m in Sources */,
 				C6F907361C229A2F00B7CBAA /* WMMenuView.m in Sources */,
-				C6E0DC4D1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorFade.m in Sources */,
 				C689D5761C2108F500C13E8D /* HttpUtils.m in Sources */,
 				C66E649F1C2CCBD300D7C3AE /* ColumnListModel.m in Sources */,
-				C6E0DC4C1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
 				C66E64961C2B822000D7C3AE /* DisciplineRegulationsTableViewController.m in Sources */,
 				C6E470AC1BCB9AC100824B64 /* AppDelegate.m in Sources */,
+				C6DB4D6C2012190000634CED /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
 				C67EB97C1C440A3100951909 /* CollectionViewController.m in Sources */,
 				C66E649C1C2BA13500D7C3AE /* BannerModel.m in Sources */,
 				C6AF754F1C27F8FC00D06D4A /* InformationDisclosureViewController.m in Sources */,
@@ -769,26 +768,26 @@
 				C6F907371C229A2F00B7CBAA /* WMProgressView.m in Sources */,
 				C67EB9861C44C4BF00951909 /* MyCollectionCell.m in Sources */,
 				C6498B1F1C353FCD00CD8768 /* DynamicModel.m in Sources */,
+				C6DB4D712012190000634CED /* SlideNavigationController.m in Sources */,
+				C6DB4D6A2012190000634CED /* SlideNavigationContorllerAnimatorFade.m in Sources */,
 				C62F61731C3A427B00AF64D5 /* SearchListModel.m in Sources */,
 				C64254E71BCFA79700C80881 /* ColumnController.m in Sources */,
+				C6DB4D6D2012190000634CED /* SlideNavigationContorllerAnimatorSlide.m in Sources */,
 				C62F61761C3A428D00AF64D5 /* SearchModel.m in Sources */,
 				C69B5B721BD8B5890004A4EE /* GJBannerView.m in Sources */,
 				C630C8E31C8436C700A4C3AB /* TestModalViewController.m in Sources */,
 				C67EB9821C4498D200951909 /* CollectionListModel.m in Sources */,
 				C66E64991C2B9FC700D7C3AE /* CateModel.m in Sources */,
-				C6E0DC501BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorScaleAndFade.m in Sources */,
 				C6E470A91BCB9AC100824B64 /* main.m in Sources */,
 				C6E0DC5A1BFDF62E00462D3E /* SearchViewController.m in Sources */,
 				C61A99601BCCA77B0016DD88 /* GJRightMenuController.m in Sources */,
-				C6E0DC4F1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorScale.m in Sources */,
 				C672161F1C46392800C64404 /* FeedBackViewController.m in Sources */,
 				C6F907341C229A2F00B7CBAA /* WMFooldView.m in Sources */,
 				C670FF211BCE399100C2EDD4 /* GJLeftMenuController.m in Sources */,
 				C66E64A21C2CD12700D7C3AE /* ColumnModel.m in Sources */,
 				C6498B1C1C352C6F00CD8768 /* DynamicListModel.m in Sources */,
-				C6E0DC4E1BFDBD8D00462D3E /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
 				C64254EA1BCFA7C200C80881 /* ColumnTableViewCell.m in Sources */,
-				C6E0DC531BFDBD8D00462D3E /* SlideNavigationController.m in Sources */,
+				C6DB4D6E2012190000634CED /* SlideNavigationContorllerAnimatorSlideAndFade.m in Sources */,
 				C67513771C2A6FAE00DEC7DF /* InformationDisclosureDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
